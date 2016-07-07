@@ -44,7 +44,7 @@ Bool
 Fixnum: 123
 Bignum: 123456789101111111
 Float: 1.111111111
-String: hello
+String: 'hello'
 
 ```
 
