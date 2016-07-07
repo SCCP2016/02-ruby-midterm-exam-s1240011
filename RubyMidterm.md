@@ -125,8 +125,12 @@ AB5?CD
 b5?c
 AB?Cd
 
-x = STDIN.gets.to_i
+x = STDIN.gets
 puts x
+puts x.length
+puts x.reverse
+puts x.upcase
+puts x.chop.
 
 ```
 
