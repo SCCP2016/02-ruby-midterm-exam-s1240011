@@ -35,10 +35,17 @@ puts 'Hello World'
 ```
 # 存在しない型
 
+Bool
+
 # 存在する型と具体例
 # [答え方の例]
 # 型: 具体例
 
+Fixnum: 整数値
+Bignum: 大きな整数
+Float: 浮動小数点数
+String: 文字列を扱う
+1
 ```
 
 ## 3. 適切なプログラムを書け
@@ -67,6 +74,32 @@ puts 'Hello World'
 # 出力例2
 # 1000
 
+age = STDIN.gets.to_i
+sex = STDIN.gets.to_i
+
+case sex
+when 0 then
+  a =  if age <= 12 then
+         700
+       elsif age <= 18 then
+         1000
+       elsif age <= 22 then
+         1200
+       else
+         1500 
+       end
+when 1 then
+  a =  if age <= 12 then
+         500
+       elsif age <= 18 then
+         800
+       elsif age <= 22 then
+         1000
+       else
+         1300 
+       end
+end
+puts a
 
 ```
 
@@ -91,6 +124,10 @@ dc?5ba
 AB5?CD
 b5?c
 AB?Cd
+
+x = STDIN.gets.to_i
+puts x
+
 ```
 
 ## 5. 適切なプログラムを書け

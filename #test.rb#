@@ -1,2 +1,5 @@
 #puts 'Hello World'
 
+
+x = STDIN.gets.to_i
+puts x
