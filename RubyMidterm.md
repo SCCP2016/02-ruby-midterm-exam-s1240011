@@ -41,10 +41,10 @@ Bool
 # [答え方の例]
 # 型: 具体例
 
-Fixnum: 整数値
-Bignum: 大きな整数
-Float: 浮動小数点数
-String: 文字列を扱う
+Fixnum: 123
+Bignum: 123456789101111111
+Float: 1.111111111
+String: hello
 
 ```
 
